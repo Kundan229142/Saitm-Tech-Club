@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(97, 97, 31);
+}
+/* hearder styling start here  */
+header{
+    height: 30px;
+    width: 100%;
+    background-color: red;
+}
+/* navbar styling start here  */
+nav{
+    height: 100px;
+    background-color: rgb(238, 255, 0);
+
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 50%;
+}
+nav h2{
+    font-size: 50px;
+    color: red;
+    text-shadow: 1px 3px 4px black ;
+    margin: 20px;
+}
+.right-nav{
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul a{
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+nav ul a:hover{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+}
+
+/* home page styling here  */
+
+
+/* Member page styling here  */
